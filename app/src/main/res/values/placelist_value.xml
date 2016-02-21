@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="place_value">
+        <item>hospital</item>
+        <item>pharmacy</item>
+        <item>doctor</item>
+        <item>lawyer</item>
+        <item>police</item>
+        <item>beauty_salon</item>
+    </string-array>
+</resources>
