@@ -45,6 +45,8 @@
         </activity>
         <activity android:name=".Legal_info_view" >
         </activity>
+        <activity android:name=".TortureType" >
+        </activity>
     </application>
 
 </manifest>
