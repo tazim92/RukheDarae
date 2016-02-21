@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="base_question">
+        <item>আপনি কি ধরণের সমস্যার শিকার?</item>
+        <item>শারীরিক</item>
+        <item>আর্থিক</item>
+        <item>মানসিক / অন্যান্য</item>
+    </string-array>
+    <string-array name="questionPhysical">
+        <item>নির্যাতনের ধরণ সনাক্ত করুনঃ</item>
+        <item>ধর্ষণ</item>
+        <item>যৌন নিপীড়ন</item>
+        <item>দহন জনিত</item>
+        <item>অপহরণ</item>
+    </string-array>
+    <string-array name="questionEconomic">
+        <item>সমস্যাটি নির্বাচন করুনঃ</item>
+        <item>যৌতুক</item>
+        <item>মুক্তিপণ</item>
+        <item>সম্পত্তি অধিকার</item>
+        <item>অর্থদণ্ড ও ক্ষতিপূরণ</item>
+    </string-array>
+    <string-array name="questionOthers">
+        <item>সমস্যার ধরণ নির্বাচন করুনঃ</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>
