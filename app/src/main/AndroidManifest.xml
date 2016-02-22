@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.returnnull.rukhedarae" >
+    package="com.returnnull.rukhedarae">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -15,10 +15,10 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:configChanges="orientation|screenSize|keyboardHidden" >
+            android:configChanges="orientation|screenSize|keyboardHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,26 +27,19 @@
         </activity>
         <activity
             android:name=".Registration"
-            android:configChanges="orientation|screenSize|keyboardHidden" >
-        </activity>
+            android:configChanges="orientation|screenSize|keyboardHidden"></activity>
         <activity
             android:name=".LocationList"
-            android:configChanges="orientation|screenSize|keyboardHidden" >
-        </activity>
-        <activity android:name=".DangerousPlaces" >
-        </activity>
-        <activity android:name=".Update_profile" >
-        </activity>
+            android:configChanges="orientation|screenSize|keyboardHidden"></activity>
+        <activity android:name=".DangerousPlaces"></activity>
+        <activity android:name=".Update_profile"></activity>
         <activity
             android:name=".Track_me"
-            android:theme="@android:style/Theme.DeviceDefault.Dialog" >
-        </activity>
-        <activity android:name=".Legal_service" >
-        </activity>
-        <activity android:name=".Legal_info_view" >
-        </activity>
-        <activity android:name=".TortureType" >
-        </activity>
+            android:theme="@android:style/Theme.DeviceDefault.Dialog"></activity>
+        <activity android:name=".Legal_service"></activity>
+        <activity android:name=".Legal_info_view"></activity>
+        <activity android:name=".TortureType"></activity>
+        <activity android:name=".Emergency_org_numbers"></activity>
     </application>
 
 </manifest>
