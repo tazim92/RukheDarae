@@ -53,6 +53,7 @@ public class Legal_service extends AppCompatActivity {
                 i.putExtra("name", selected);
                 i.putExtra("loc",pos);
                 startActivity (i);
+                finish();
 
             }
         });

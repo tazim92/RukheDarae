@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClickTrackMe(View view){
         Intent i = new Intent(this, Track_me.class);
         startActivity(i);
+        finish();
 
     }
 
@@ -72,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClickLegalService(View view){
         Intent i = new Intent(this, Legal_service.class);
         startActivity(i);
+        finish();
 
     }
 

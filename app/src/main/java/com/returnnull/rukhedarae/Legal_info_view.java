@@ -86,7 +86,7 @@ public class Legal_info_view extends AppCompatActivity {
 
     public boolean onOptionsItemSelected(MenuItem item) {
         Intent myIntent;
-        myIntent = new Intent(getApplicationContext(), MainActivity.class);
+        myIntent = new Intent(getApplicationContext(), Legal_service.class);
         startActivityForResult(myIntent, 0);
         finish();
         return true;
