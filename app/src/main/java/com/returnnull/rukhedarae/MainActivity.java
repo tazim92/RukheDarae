@@ -75,6 +75,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void onClickHarassmentDetection(View view){
+        Intent i = new Intent(this, TortureType.class);
+        startActivity(i);
+        finish();
+    }
+
 
 
 

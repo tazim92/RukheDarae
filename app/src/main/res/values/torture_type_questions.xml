@@ -22,9 +22,9 @@
     </string-array>
     <string-array name="questionOthers">
         <item>সমস্যার ধরণ নির্বাচন করুনঃ</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>আত্মহত্যা প্ররোচনা</item>
+        <item>ইভটিজিং</item>
+        <item>মিথ্যা মামলা</item>
+        <item>ডিভোর্স</item>
     </string-array>
 </resources>
